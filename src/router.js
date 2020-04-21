@@ -17,7 +17,7 @@ const router = new Router({
         {path: '/welcome', component: Welcome},
         {path: '/historyBrief', component: HistoryBrief},
         {path: '/historyAdd', component: HistoryAdd},
-        {path: '/historyDetial', component: HistoryDetial},
+        {path: '/historyDetial/:id', component: HistoryDetial},
         {path: '/historyEdit', component: HistoryEdit},
       ]
     }
