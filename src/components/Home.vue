@@ -63,14 +63,14 @@
     position: fixed;
     z-index: 999;
     width: 100%;
-    box-shadow: 0px 12px 8px -12px #CCC;
+    box-shadow: 0px 12px 8px -12px #000;
     border-radius: 0px;
   }
 
   .el-menu-style2 {
     position: absolute;
     width: 100%;
-    box-shadow: 0px 12px 8px -12px #CCC;
+    box-shadow: 0px 12px 8px -12px #000;
     border-radius: 0px;
   }
 
