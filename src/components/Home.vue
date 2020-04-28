@@ -13,7 +13,7 @@
                  active-text-color="#4183C4">
           <el-menu-item index="/historyAdd">记录</el-menu-item>
           <el-menu-item index="/historyBrief">时间轴</el-menu-item>
-          <el-menu-item index="/welcome">HOME</el-menu-item>
+          <el-menu-item index="/historyNew">HOME</el-menu-item>
         </el-menu>
       </div>
     </el-header>
@@ -28,7 +28,7 @@
     name: 'home',
     data() {
       return {
-        activePath: '/welcome',
+        activePath: '/historyNew',
         menuStyle: 'el-menu-style',
         headerShow: true,
       };

@@ -42,7 +42,7 @@
         // console.log(this.detialEvent);
       },
       returnBack(){
-        this.$router.push({path: `/historyBrief`});
+        this.$router.go(-1);//返回上一层
       }
     },
 
